@@ -1,4 +1,4 @@
-# Riddhi's iteration program
+# Riddhi's Iteration Program
 print('What method do you want to iterate?')
 choice = int(input('1. Addition 2. Subtraction 3. Multiplication 4. Division: '))
 if choice == 1:
