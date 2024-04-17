@@ -1,4 +1,4 @@
-# Riddhi's Impossible Number Guessing Game
+# Riddhi's Impossible Number Guessing Game (WIP)
 import random
 print('To guess a number between your given range, you also have customizable chances to guess the number')
 start = int(input('Enter your starting range number: '))
