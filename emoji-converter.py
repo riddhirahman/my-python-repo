@@ -1,4 +1,4 @@
-#Emoji converter (WIP)
+#Emoji converter (W.I.P)
 def emoji_converter(message):
     words = message.split(' ')
     emoji = {
