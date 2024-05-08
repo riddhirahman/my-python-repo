@@ -1,12 +1,17 @@
 #Emoji converter (WIP)
-message = input('>')
-words = message.split(' ')
-emoji = {
-    ':)' : '😁',
-    ':(' : '😒',
-    'XD' : '😂'
+def emoji_converter(message):
+    words = message.split(' ')
+    emoji = {
+        ':)' : '😁',
+        ':(' : '😒',
+        'XD' : '😂',
+        'love' : '❤️',
+        'nice' : '👌'
 }
-output = ''
-for word in words:
-    output += emoji.get(word, word) + ' '
-print(output)
+    output = ''
+    for word in words:
+        output += emoji.get(word, word) + ' '
+    return output
+
+message = input('>')
+print(emoji_converter(message))
